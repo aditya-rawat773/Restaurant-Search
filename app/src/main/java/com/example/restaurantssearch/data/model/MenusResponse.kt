@@ -1,10 +1,8 @@
 package com.example.restaurantssearch.data.model
 
-import java.io.Serializable
-
 data class MenusResponse(
     val menus: ArrayList<MenusItem?>? = null
-):Serializable
+)
 
 data class MenusItem(
     val categories: ArrayList<CategoriesItem?>? = null,

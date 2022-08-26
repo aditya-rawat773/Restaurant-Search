@@ -9,7 +9,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.restaurantssearch.adapters.RestaurantAdapter
-import com.example.restaurantssearch.data.model.MenuItemsItem
 import com.example.restaurantssearch.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
@@ -19,7 +18,6 @@ import kotlinx.coroutines.launch
 class MainActivity : AppCompatActivity() {
 
     private val viewModel: MainViewModel by viewModels()
-    private var menusList: ArrayList<MenuItemsItem?> = ArrayList()
     private lateinit var binding: ActivityMainBinding
     private lateinit var restaurantAdapter: RestaurantAdapter
 

@@ -1,6 +1,5 @@
 package com.example.restaurantssearch.adapters
 
-
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.Filter
