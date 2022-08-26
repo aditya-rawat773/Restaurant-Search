@@ -10,5 +10,5 @@
 -  ViewModel
 -  LiveData
 -  Hilt
--  RecyclerView
 -  Coroutines
+-  RecyclerView
