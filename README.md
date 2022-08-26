@@ -11,3 +11,4 @@
 -  LiveData
 -  Hilt
 -  RecyclerView
+-  Coroutines
